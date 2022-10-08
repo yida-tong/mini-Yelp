@@ -1,0 +1,92 @@
+.center-width-430 {
+    margin: auto;
+    width: 430px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    height: 25px;
+    padding: 2px 6px;
+    font-size: 16px;
+    background-color: white;
+}
+.button-control {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    height: 40px;
+    width: 94px;
+    background-color: rgb(66,99,163);
+    color: white;
+    outline: none;
+    border-bottom: 4px solid rgb(46,67,108);
+}
+#button1:hover {
+    opacity: 0.9;
+}
+#button2 {
+    background-color: rgb(255,173,19)
+}
+#button2:hover {
+    background-color: rgb(227,145,12)
+}
+.form-control:focus {
+    border: 2px solid black;
+    outline: none;
+}
+.blue-text {
+    color: rgb(58,93,159);
+}
+.astrak-color {
+    color: rgb(242,140,171)
+}
+
+table, th, td {
+    border: 1px solid rgb(222,222,222);
+    border-collapse: collapse;
+}
+
+th {
+    height: 55px;
+    background-color: rgb(66, 99, 163);
+}
+
+input[type=text]:disabled {
+    background: #dddddd;
+}
+
+.hover-name:hover {
+    opacity: 0.5;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 375px 375px;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 5px
+}
+
+.br-no-height {
+    display: block;
+    margin: 0;
+}
+.detail-page-content-font {
+    font-size: 13px;
+    font-weight: lighter
+}
+
+.detail-photo {
+    border:1px solid rgb(222,222,222);
+}
+
+.detail-photo:hover {
+    border:1px solid black;
+}

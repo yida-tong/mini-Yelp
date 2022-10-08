@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>mini Yelp</title>
+  <link href="myCSS.css" rel="stylesheet"/>
+</head>
+<body style="background-color: rgb(222,222,222);font-family: sans-serif">
+<div style="margin: auto; width: 500px;border: 4px solid rgb(206, 206, 206)">
+  <div style="overflow: hidden;height: 92px;position: relative">
+    <img src="banner.jpeg" alt="" style="width: 500px; margin-top: -173px">
+    <div style="color: white; position: absolute;top: 30px;left: 34px;font-size: 18px;font-weight: bold">Business Search</div>
+    <div style="color: white; position: absolute;top: 68px;left: 34px;font-size: 17px">Fill out the form to get business near you!</div>
+  </div>
+  <form style="background-color: white" onsubmit="formSubmit();return false" action="#">
+    <br/>
+    <div class="center-width-430">
+      <label for="kw" class="blue-text">Keyword<span class="astrak-color">*</span></label><br/>
+      <input type="text" id="kw" name="kw" style="width: 415px;margin-top: 5px" class="form-control" required>
+    </div>
+    <br/>
+    <div class="grid-container center-width-430">
+      <div style="width: 215px">
+        <label for="ds" class="blue-text">Distance(miles)</label><br/>
+        <input type="text" id="ds" name="ds" style="margin-top: 5px;width: 130px" class="form-control" value="10">
+      </div>
+      <div style="width: 215px">
+        <label for="ct" class="blue-text">Category <span class="astrak-color">*</span></label><br/>
+        <select id="ct" name="ct" style="margin-top: 5px;width: 215px;height: 33px" class="form-control">
+          <option value="all" selected>Default</option>
+          <option value="arts, All">Arts & Entertainment</option>
+          <option value="health, All">Health & Medical</option>
+          <option value="hotelstravel, All">Hotels & Travel</option>
+          <option value="food, All">Food</option>
+          <option value="professional, All">Professional Services</option>
+        </select>
+      </div>
+    </div>
+    <br/>
+    <div class="center-width-430">
+      <label for="lc" class="blue-text">Location <span class="astrak-color">*</span></label><br/>
+      <input type="text" id="lc" name="lc" style="width: 415px;margin-top: 5px" class="form-control" required>
+    </div>
+    <hr style="width: 430px;margin-top: 22px;border-style: solid" class="blue-text">
+    <div class="center-width-430">
+      <p class="blue-text">Want us to auto-detect your location? Check here<input type="checkbox" id="auto" name="auto" onclick="ckboxClick(this)"></p>
+      <button type="submit" class="button-control" id="button1">SUBMIT</button>
+      <button type="button" class="button-control" style="border: 1px solid black;border-bottom: 4px solid rgb(255,119,12)" id="button2" onclick="formClear()">CLEAR</button>
+    </div>
+    <br/>
+  </form>
+</div>
+<br/><br/>
+
+<div id="no_area"></div>
+
+<div style="text-align: center;" id="table_area"></div><br/><br/>
+
+<div id="detail_area"></div><br/>
+
+<script src="myScript.js"></script>
+</body>
+</html>
