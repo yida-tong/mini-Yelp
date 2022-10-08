@@ -1,26 +1,26 @@
-<h1 style="text-align: center">
+<h1 style="text-align: center" align="center">
 
 [Mini Yelp](https://tony-tong-cloud.wl.r.appspot.com/static/index.html)
 </h1>
 
-<p style="text-align: center">
+<p style="text-align: center" align="center">
 Web app designed to search business information from angle of content focus and simplicity.<br/><br/>
 Created page with HTML/CSS/JS (without any front-end lib/framework, no server-side rendering), built backend with Django REST as a proxy, queried Yelp fusion API.
  
 </p>
 
-<p style="text-align: center">
+<p style="text-align: center" align="center">
 <a href="https://www.django-rest-framework.org/"><img src="https://img.shields.io/badge/Built%20with-Django%20REST%20Framework-/?style=plastic&logo=django" alt=""></a>
 <a href="https://www.yelp.com/developers/documentation/v3"><img src="https://img.shields.io/badge/Endpoint-Yelp%20Fusion%20-/?style=plastic&logo=yelp&color=red" alt=""></a>
 <a href="https://cloud.google.com/python/django/appengine"><img src="https://img.shields.io/badge/hosted%20on-GCP-/?style=plastic&logo=googlecloud&color=white" alt=""></a>
 </p>
 
-<div style="text-align: center">
+<div style="text-align: center" align="center">
  <img src="https://745062756.github.io/form.png">
  <img src="https://745062756.github.io/detail.png">
 </div>
 
-<hr/>
+
 
 ## Overview
 ### 1. Business Search
@@ -61,14 +61,14 @@ GET /business/WavvLdfdP6g8aZTtbBQHTw/details/
 
 <br/>
 ⭐ <a href="https://tony-tong-cloud.wl.r.appspot.com">browsable root api</a> available
-<hr/>
+
 
 ## Practice Objectives:
 <ul>
 <li>Server side python framework.</li>
 <li>HTML, CSS, JavaScript, DOM, JSON, AJAX.</li>
 </ul>
-<hr/>
+
 
 ## Credits
  <table>
