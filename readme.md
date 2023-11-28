@@ -16,8 +16,8 @@ Created page with HTML/CSS/JS (without any front-end lib/framework, no server-si
 </p>
 
 <div style="text-align: center" align="center">
- <img src="https://745062756.github.io/form.png">
- <img src="https://745062756.github.io/detail.png">
+ <img src="https://yida-tong.github.io/form.png">
+ <img src="https://yida-tong.github.io/detail.png">
 </div>
 
 
