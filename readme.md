@@ -17,8 +17,8 @@ Created page with HTML/CSS/JS (without any front-end lib/framework, no server-si
 
 <div style="text-align: center" align="center">
  ![](figure1.png)
- <img src="https://yida-tong.github.io/form.png">
- <img src="https://yida-tong.github.io/detail.png">
+ <img src="https://github.com/yida-tong/mini-Yelp/form.png">
+ <img src="https://github.com/yida-tong/mini-Yelp/detail.png">
 </div>
 
 
