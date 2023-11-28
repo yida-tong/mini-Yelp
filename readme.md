@@ -14,7 +14,8 @@ Created page with HTML/CSS/JS (without any front-end lib/framework, no server-si
 <a href="https://www.yelp.com/developers/documentation/v3"><img src="https://img.shields.io/badge/Endpoint-Yelp%20Fusion%20-/?style=plastic&logo=yelp&color=red" alt=""></a>
 <a href="https://cloud.google.com/python/django/appengine"><img src="https://img.shields.io/badge/hosted%20on-GCP-/?style=plastic&logo=googlecloud&color=white" alt=""></a>
 </p>
-
+ ![](form.png)
+ ![](detail.png)
 <div style="text-align: center" align="center">
  ![](form.png)
  ![](detail.png)
