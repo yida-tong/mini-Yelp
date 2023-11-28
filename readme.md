@@ -6,7 +6,6 @@
 <p style="text-align: center" align="center">
 Web app designed to search business information from angle of content focus and simplicity.<br/><br/>
 Created page with HTML/CSS/JS (without any front-end lib/framework, no server-side rendering), built backend with Django REST as a proxy, queried Yelp fusion API.
- 
 </p>
 
 <p style="text-align: center" align="center">
@@ -14,14 +13,10 @@ Created page with HTML/CSS/JS (without any front-end lib/framework, no server-si
 <a href="https://www.yelp.com/developers/documentation/v3"><img src="https://img.shields.io/badge/Endpoint-Yelp%20Fusion%20-/?style=plastic&logo=yelp&color=red" alt=""></a>
 <a href="https://cloud.google.com/python/django/appengine"><img src="https://img.shields.io/badge/hosted%20on-GCP-/?style=plastic&logo=googlecloud&color=white" alt=""></a>
 </p>
- ![](form.png)
- ![](detail.png)
-<div style="text-align: center" align="center">
- ![](form.png)
- ![](detail.png)
 
- <img src="https://github.com/yida-tong/mini-Yelp/form.png">
- <img src="https://github.com/yida-tong/mini-Yelp/detail.png">
+<div style="text-align: center" align="center">
+ <img src="https://raw.githubusercontent.com/yida-tong/mini-Yelp/master/form.png">
+ <img src="https://raw.githubusercontent.com/yida-tong/mini-Yelp/master/detail.png">
 </div>
 
 
